@@ -10,4 +10,9 @@ public class GitBranchingTest {
 
 	}
 
+	@Test
+	public void checkUpdate() {
+		System.out.println("check-in new update Test");
+	}
+
 }
