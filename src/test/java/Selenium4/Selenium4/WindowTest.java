@@ -30,6 +30,7 @@ public class WindowTest {
 
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.navigate().to("http://codenboxautomationlab.com/");
+		System.out.println("The title of the page is:");
 		System.out.println(driver.getTitle());
 		driver.quit();
 	}
@@ -38,6 +39,7 @@ public class WindowTest {
 	public void openNewWindow() {
 		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.navigate().to("http://codenboxautomationlab.com/");
+		System.out.println("The title of the page is:");
 		System.out.println(driver.getTitle());
 		driver.quit();
 
